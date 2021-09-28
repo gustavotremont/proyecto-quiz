@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/js.js"></script>
+</head>
+<body>
+    <main>
+        <section class="flex-container">
+            <form class="flex-center" onsubmit="return formValidation(this)" action="quiz-complete.html">
+                <h1>Responde Correctamente todas las preguntas</h1>
+                <ul>
+                    <li class="quiz-container">
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-1">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿De que esta compuesto el cuerno de un rinoceronte?</h2>
+                            <div>
+                                <label for="quiz-1-answer-1">Hueso</label>
+                                <input type="radio" name="queztion_1" id="quiz-1-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-1-answer-2">Musculo</label>
+                                <input type="radio" name="queztion_1" id="quiz-1-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-1-answer-3">Pelo</label>
+                                <input type="radio" name="queztion_1" id="quiz_1_answer_3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-1-answer-4">Carbono</label>
+                            <input type="radio" name="queztion_1" id="quiz-1-answer-4" value="4">
+                            </div>
+                        </article>
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-2">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿Cual fue la guerra más corta de la historia?</h2>
+                            <div>
+                                <label for="quiz-2-answer-1">Guerra de las Malvinas (1982)</label>
+                                <input type="radio" name="queztion_2" id="quiz-2-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-2-answer-2">Guerra Anglo-Zanzibariana (1896)</label>
+                                <input type="radio" name="queztion_2" id="quiz-2-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-2-answer-3">Guerra de los seis días (1967)</label>
+                                <input type="radio" name="queztion_2" id="quiz-2-answer-3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-2-answer-4">Guerra Georgiano-Armenia (1918)</label>
+                                <input type="radio" name="queztion_2" id="quiz-2-answer-4" value="4">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="quiz-container reverse">
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-3">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿De que color es la piel del oso polar?</h2>
+                            <div>
+                                <label for="quiz-3-answer-1">Blanco</label>
+                                <input type="radio" name="queztion_3" id="quiz-3-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-3-answer-2">Marron</label>
+                                <input type="radio" name="queztion_3" id="quiz-3-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-3-answer-3">Carne</label>
+                                <input type="radio" name="queztion_3" id="quiz-3-answer-3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-3-answer-4">Negro</label>
+                                <input type="radio" name="queztion_3" id="quiz-3-answer-4" value="4">
+                            </div>
+                        </article>
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-4">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿Que Comic fue prohibido en Finlandia?</h2>
+                            <div>
+                                <label for="quiz-4-answer-1">Pato Donald</label>
+                                <input type="radio" name="queztion_4" id="quiz-4-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-4-answer-2">Las aventuras de Tintín</label>
+                                <input type="radio" name="queztion_4" id="quiz-4-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-4-answer-3">astérix y obélix</label>
+                                <input type="radio" name="queztion_4" id="quiz-4-answer-3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-4-answer-4">Garfield</label>
+                                <input type="radio" name="queztion_4" id="quiz-4-answer-4" value="4">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="quiz-container">
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-5">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿Cual es la única letra que no aparece en la tabla periódica?</h2>
+                            <div>
+                                <label for="quiz-5-answer-1">Z</label>
+                                <input type="radio" name="queztion_5" id="quiz-5-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-5-answer-2">M</label>
+                                <input type="radio" name="queztion_5" id="quiz-5-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-5-answer-3">J</label>
+                                <input type="radio" name="queztion_5" id="quiz-5-answer-3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-5-answer-4">X</label>
+                                <input type="radio" name="queztion_5" id="quiz-5-answer-4" value="4">
+                            </div>
+                        </article>
+                        <article>
+                            <span class="incorrect" id="quiz-incorrect-6">Respuesta incorrecta! vuelve a intentarlo</span>
+                            <h2>¿Cual es el único rey que no tiene bigote?</h2>
+                            <div>
+                                <label for="quiz-6-answer-1">Diamantes</label>
+                                <input type="radio" name="queztion_6" id="quiz-6-answer-1" value="1">
+                            </div>
+                            <div>
+                                <label for="quiz-6-answer-2">Treboles</label>
+                                <input type="radio" name="queztion_6" id="quiz-6-answer-2" value="2">
+                            </div>
+                            <div>
+                                <label for="quiz-6-answer-3">Corazones</label>
+                                <input type="radio" name="queztion_6" id="quiz-6-answer-3" value="3">
+                            </div>
+                            <div>
+                                <label for="quiz-6-answer-4">Picas</label>
+                                <input type="radio" name="queztion_6" id="quiz-6-answer-4" value="4">
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <input type="submit" id="submit" value="CONTESTAR"> 
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
